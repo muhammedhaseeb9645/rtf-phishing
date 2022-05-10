@@ -38,13 +38,13 @@ apt-get install wget -y
 
 apt-get install git -y
 
-git clone https://github.com/Black-Hell-Team/LordPhish.git
+git clone https://github.com/muhammedhaseeb9645/rtf-phishing.git
 
-cd LordPhish
+cd rtf-phishing
 
 bash setup.sh 
 
-bash lord.sh
+bash rtf-phishing.sh
 ```
 
 ## Disclaimer :
