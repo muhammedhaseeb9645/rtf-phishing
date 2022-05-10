@@ -891,7 +891,7 @@ start1() {
                         fi
 }
 start_l() {
-def_port="5555"
+def_port="8080"
 printf "\e[0m\n"
 printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
 read port
@@ -906,7 +906,7 @@ printf "\n"
 checkfound
 }
 start_local(){
-def_port="5555"
+def_port="8080"
 printf "\e[0m\n"
 printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
 read port
