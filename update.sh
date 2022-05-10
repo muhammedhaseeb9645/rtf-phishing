@@ -18,7 +18,7 @@ echo -e "\e[97m                      ______
 ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░░░░░░░░░░╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░
         "
 cd $HOME
-rm -rf LordPhish
+rm -rf rtf-phishing
 git clone https://github.com/muhammedhaseeb9645/rtf-phishing
 clear
 echo ""
@@ -26,6 +26,6 @@ echo -e "$red [ $yellow + $red ] $green LordPhish was successfully updated. $res
 sleep 3.7
 echo ""
 cd $HOME
-cd LordPhish
+cd rtf-phishing
 clear
 echo -e "$red [ $yellow + $red ] $green Going out!"
