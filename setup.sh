@@ -15,7 +15,7 @@ printf "${red}█▀█ ▀█▀ █▀▀ ▄▄ █▀█ █░█
 printf "${red}█▀▄ ░█░ █▀░ ░░ █▀▀ █▀█ █ ▄█ █▀█ █ █░▀█ █▄█\n"
 printf "      \e[1;97m  .:.  Version 2.1 Beta  .:.  \e[0m\n"
 printf "\n"
-printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX/Ch4r0nN \e[0m\n"
+printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by ▄︻デ🄷🄰🅂🄴🄴🄱══━一 (-)/-\ \e[0m\n"
 printf "\n"
 printf "     \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
 printf "     \e[101m\e[1;77m:: responsible for any misuse or damage caused by rtf-phishing.  ::\e[0m\n"
@@ -38,7 +38,7 @@ install() {
     fi
 
 	if [[ `command -v php` && `command -v wget` && `command -v curl` && `command -v unzip` ]]; then
-	        chmod +x lord.sh
+	        chmod +x rtf-phishing
 		echo -e "\n[*] Packages already installed."
 	else
 		pkgs=(php curl wget unzip)
