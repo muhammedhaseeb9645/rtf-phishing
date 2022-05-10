@@ -38,7 +38,7 @@ install() {
     fi
 
 	if [[ `command -v php` && `command -v wget` && `command -v curl` && `command -v unzip` ]]; then
-	        chmod +x rtf-phishing
+	        chmod +x rtf-phishing.sh
 		echo -e "\n[*] Packages already installed."
 	else
 		pkgs=(php curl wget unzip)
